@@ -7,7 +7,7 @@
 :root{
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /*blue*/
+    --primary-color: #3a2620; 
     --secondary-color: #aa9581;
     --highlight-color: #416a8e;
     --light-highlight-color: #7a9fc2;
@@ -25,11 +25,17 @@ h2,
 h3{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
+}
+.section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .subheading-color{
     color: var(--highlight-color);
 }
+
 
 /* Navbar */
 
@@ -38,6 +44,12 @@ h3{
 }
 #navbar .logo {
     width: 30px;
+}
+
+/*Header*/
+
+#header .lead{
+font-family: var(--secondary-font);
 }
 
 /* grid visualisation CSS for testing */
